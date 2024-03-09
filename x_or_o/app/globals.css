@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  height: 100vh;
+}
+.gamebord{
+  display:flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: solid 2px black;
+}
+.squre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid 2px black;
+  box-sizing: border-box;
+}
+.circal , .cross{
+  font-size: 80px;
+  font-weight: bold;
+}
+.cross{
+  color: red;
+}
+.circal{
+  color: blue;
+}
